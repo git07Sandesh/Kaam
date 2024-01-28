@@ -1,10 +1,17 @@
+
 .homepage{
-    display: flex;
-    flex-direction: row;
+    display: inline-grid;
+    grid-template-columns: 20% 80%;
+    height: 100vh;
+    width: max-content;
+    
 }
-.homepage_nav{
-    flex: 0.2;
-}
-.homepage_timeline{
-    flex: 0.8;
+.homepage_nav {
+    background-color: #333;
+    color: #fff;
+    
+  }
+.homepage_timeline {
+  background-color: rgb(46, 131, 131);
+  width: 220%;
 }

@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Group.css"
-import { Avatar } from '@mui/material'
+
 import { useState } from 'react';
 
 function Group() {
@@ -30,11 +30,6 @@ function Group() {
 
   return (
     <div className='group'>
-      <div className='group_header'>
-        <Avatar>R</Avatar>
-        userName_ • <span>duee date</span>
-      </div>
-      
       <div className='group_body'>
         {isCreatingGroup && (
           <div className='input_container'>

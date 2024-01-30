@@ -1,17 +1,4 @@
 
-.homepage{
-    display: inline-grid;
-    grid-template-columns: 20% 80%;
-    height: 100vh;
-    width: max-content;
-    
-}
-.homepage_nav {
-    background-color: #333;
-    color: #fff;
-    
-  }
-.homepage_timeline {
-  background-color: rgb(46, 131, 131);
-  width: 220%;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

@@ -1,5 +1,4 @@
 import React from 'react';
-import "./Sidenav.css";
 import HomeIcon from '@mui/icons-material/Home';
 import HistoryIcon from '@mui/icons-material/History';
 import Diversity3Icon from '@mui/icons-material/Diversity3';
@@ -11,38 +10,38 @@ import SupportAgentIcon from '@mui/icons-material/SupportAgent';
 function Sidenav() {
   return (
     
-    <div className='sidenav'>
-        <h2 className='sidenav_logo'>Dashboard</h2>
-      <div className='sidenav_buttons'>
-          <button className='sidenav_button'>
+    <div className='fixed w-48 l-0 flex flex-col justify-between h-full z-10 bg-lime-500'>
+        <h2 className='fixed w-30 m-9 text-xl font-bold text-black'>Dashboard</h2>
+      <div className=' fixed mt-10 pt-10 flex flex-col flex-1'>
+          <button className="flex items-center bg-transparent border-0 m-1 p-3 rounded-lg hover:cursor-pointer hover:bg-opacity-20 hover:bg-slate-600">
             <HomeIcon />
-            <span>Home</span>
+            <span className='text-black text-lg font-bold ml-4'>Home</span>
           </button>
-          <button className='sidenav_button'>
+          <button className="flex items-center bg-transparent border-0 m-1 p-3 rounded-lg hover:cursor-pointer hover:bg-opacity-20 hover:bg-slate-600">
             <HistoryIcon />
-            <span>History</span>
+            <span className='text-black text-lg font-bold ml-4'>History</span>
           </button>
-          <button className='sidenav_button'>
+          <button className="flex items-center bg-transparent border-0 m-1 p-3 rounded-lg hover:cursor-pointer hover:bg-opacity-20 hover:bg-slate-600">
             <Diversity3Icon />
-            <span>Friends</span>
+            <span className='text-black text-lg font-bold ml-4'>Friends</span>
           </button>
-          <button className="sidenav_button">
+          <button className="flex items-center bg-transparent border-0 m-1 p-3 rounded-lg hover:cursor-pointer hover:bg-opacity-20 hover:bg-slate-600">
             <SettingsIcon />
-            <span>Settings</span>
+            <span className='text-black text-lg font-bold ml-4'>Settings</span>
           </button>
-          <button className="sidenav_button">
+          <button className="flex items-center bg-transparent border-0 m-1 p-3 rounded-lg hover:cursor-pointer hover:bg-opacity-20 hover:bg-slate-600">
             <SupportAgentIcon />
-            <span>Support</span>
+            <span className='text-black text-lg font-bold ml-4'>Support</span>
           </button>
-          <button className="sidenav_button">
+          <button className="flex items-center bg-transparent border-0 m-1 p-3 rounded-lg hover:cursor-pointer hover:bg-opacity-20 hover:bg-slate-600">
             <PrivacyTipIcon />
-            <span>Privacy</span>
+            <span className='text-black text-lg font-bold ml-4'>Privacy</span>
           </button>
       
-        <div className='sidenav_more'>
-          <button className="sidenav_button">
+        <div className='fixed bottom-3'>
+          <button className="flex items-center bg-transparent border-0 m-1 p-3 rounded-lg  hover:cursor-pointer hover:bg-opacity-20 hover:bg-slate-600">
             <MenuIcon />
-            <span>About Us</span>
+            <span className='text-black text-lg font-bold ml-4'>About Us</span>
           </button>
         </div>
       </div>

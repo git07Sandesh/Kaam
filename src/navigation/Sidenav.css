@@ -1,5 +1,5 @@
 
-.sidenav{  
+/*.sidenav{  
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -7,19 +7,23 @@
     background-color: rgba(137, 223, 0, 0.94);
     height: 100%;
 }
-
+*/
+/*
 .sidenav_logo{
     width: 120px;
     margin: 25px;
     color: black;
 }
+*/
 
-.sidenav_buttons{
+/*.sidenav_buttons{
     display: flex;
     flex-direction: column;
     flex: 1;
     
 }
+*/
+/*
 .sidenav_button{
     display: flex;
     flex-direction: row;
@@ -31,20 +35,26 @@
     border-radius: 15px;
     width: 100%;
 }
-.sidenav_button:hover{
+*/
+/*.sidenav_button:hover{
     cursor: pointer;
     background-color: rgba(255,255,255,0.128); 
 }
+*/
 
+/*
 .sidenav_button > span{
     font-size: 18px;
     font-weight: bolder;
     margin-left: 10px;
     
 }
+*/
 
+/*
 .sidenav_more{
     position: fixed;
     bottom: 3px ;
    
 }
+*/
